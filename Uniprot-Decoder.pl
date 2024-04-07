@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-open OUTPUT, ">ex1_output.txt"; #open output file
+open OUTPUT, ">protein_details.txt"; #open output file
 $/="\/\/\n";
 while(<>){
 $seq_start=1;
