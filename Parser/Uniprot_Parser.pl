@@ -1,5 +1,7 @@
 #!/usr/bin/perl
-open OUTPUT, ">protein_details.txt"; #open output file
+print "Enter output file name: ";
+$out_file = <STDIN>;
+open OUTPUT, ">". $out_file ; #open output file
 $/="\/\/\n";
 while(<>){
 $seq_start=1;
