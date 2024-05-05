@@ -1,4 +1,4 @@
-# UniProt Protein Parser
+# 🧬 UniProt Protein Parser
 
 This repository contains a Perl script for parsing UniProt protein entries from an input file and generating an output file in a specific format. This format allows the user to spot easier essential information about the proteins, such as the amino acid sequence and the positions of transmembrane segments.
 
